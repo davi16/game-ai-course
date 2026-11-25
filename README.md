@@ -27,6 +27,7 @@ Implementation of Bidirectional BFS on a 2D grid maze: two breadth-first searche
 Cell.h / Cell.cpp – Represents a single grid cell (row, column, color/state, and parent pointer).   
 
 Maze.h / Maze.cpp – Encapsulates maze initialization, resetting the exact same maze (ResetSameMaze), managing both search queues, executing bidirectional BFS steps, and reconstructing the path.
+
 main.cpp – Handles rendering and user interaction via OpenGL and GLUT (display, idle, and right-click context menu).
 ```
 
